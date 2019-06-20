@@ -10,7 +10,8 @@ define(function(require) {
 
 		i18n: {
 			'de-DE': { customCss: false },
-			'en-US': { customCss: false }
+			'en-US': { customCss: false },
+			'es-ES': { customCss: false }
 		},
 
 		appFlags: {
