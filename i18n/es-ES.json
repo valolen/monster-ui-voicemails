@@ -1,65 +1,65 @@
 {
 	"voicemails": {
-		"title": "Voicemail Manager",
+		"title": "Administrador de correo de voz",
 		"menuTitles": {
-			"receivedVMs": "Received Voicemails",
-			"storage": "Storage"
+			"receivedVMs": "Mensajes de voz recibidos",
+			"storage": "Almacenamiento"
 		},
 		"receivedVMs": {
-			"filterByDate": "Filter by Dates",
+			"filterByDate": "Filtrar por fechas",
 			"table": {
 				"columns": {
-					"status": "Status",
-					"callId": "Call ID",
-					"received": "Received",
-					"from": "From",
-					"targetNumber": "Target Number",
-					"duration": "Duration",
-					"name": "Name"
+					"status": "Estado",
+					"callId": "Identificador de llamadas",
+					"received": "Recibido",
+					"from": "Desde",
+					"targetNumber": "Número llamado",
+					"duration": "DuraciÛn",
+					"name": "Nombre"
 				},
-				"emptyRow": "There are no messages stored in the selected Voicemail Box"
+				"emptyRow": "No hay mensajes almacenados en el buzÛn de correo de voz seleccionado"
 			},
 			"empty": {
-				"headline1": "There are",
-				"headline2": "voicemail boxes recognized on this account",
-				"subHeadline": "Select a box to manage the voicemails it contains."
+				"headline1": "Hay",
+				"headline2": "buzones de voz reconocidos en esta cuenta",
+				"subHeadline": "Seleccione un cuadro para administrar los correos de voz que contiene."
 			},
 			"actionBar": {
 				"select": {
-					"all": "All on page",
-					"new": "New",
-					"listened": "Listened",
-					"deleted": "Deleted",
-					"none": "None"
+					"all": "Todo en la p·gina",
+					"new": "Nuevo",
+					"listened": "Escuchado",
+					"deleted": "Eliminado",
+					"none": "Ninguno"
 				},
 				"selectVM": {
-					"none": "Select a Voicemail Box"
+					"none": "Seleccione un buzÛn de correo de voz"
 				},
-				"from": "From",
-				"to": "To",
-				"markAsNew": "Mark as New",
-				"markAsListened": "Mark as Listened",
-				"markAsDeleted": "Mark as Deleted",
+				"from": "Desde",
+				"to": "A",
+				"markAsNew": "Marcar como nuevo",
+				"markAsListened": "Marcar como escuchado",
+				"markAsDeleted": "Marcar como eliminado",
 				"tooltips": {
-					"markAs": "Mark As",
-					"refresh": "Refresh",
-					"select": "Select",
-					"moveTo": "Move To",
-					"delete": "This will remove the selected voicemails from the database and they won't be retrievable afterwards."
+					"markAs": "Marcar como",
+					"refresh": "Refrescar",
+					"select": "Seleccionar",
+					"moveTo": "Mover a",
+					"delete": "Esto eliminar· los correos de voz seleccionados de la base de datos y no se podr·n recuperar despuÈs."
 				},
-				"delete": "Delete",
-				"currentlyViewing": "Currently Viewing",
-				"new": "New:",
+				"delete": "Eliminar",
+				"currentlyViewing": "Actualmente viendo",
+				"new": "Nuevo:",
 				"total": "Total:"
 			},
 			"status": {
-				"saved": "Listened",
-				"deleted": "Deleted",
-				"new": "New"
+				"saved": "Escuchado",
+				"deleted": "Eliminado",
+				"new": "Nuevo"
 			},
-			"noCDR": "We didn't find any corresponding CDR to this message. It is possible that the logs have been deleted from the system if this is an old message.",
+			"noCDR": "No encontramos ningún CDR correspondiente a este mensaje. Es posible que los registros se hayan eliminado del sistema si se trata de un mensaje antiguo.",
 			"CDRPopup": {
-				"title": "CDR Details"
+				"title": "Detalles CDR "
 			}
 		}
 	}
